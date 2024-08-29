@@ -127,7 +127,9 @@ lazy_static!{
     );
 }
 
+#[derive(Debug, Clone, Copy, Eq, PartialEq)]
 pub enum ElementSymbol {
+    Unknown,
     H,   // Hydrogen
     He,  // Helium
     Li,  // Lithium
