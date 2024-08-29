@@ -10,7 +10,7 @@ impl FormulaBuilder {
             formula: Formula {
                 left_compounds: vec![],
                 right_compounds: vec![],
-            }
+            },
         }
     }
 
