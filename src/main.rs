@@ -6,4 +6,6 @@ fn main() {
     env_logger::init();
     
     let formula = "CH4 + O2 -> CO2 + H2O";
+
+    println!("Formula: {}", formula);
 }
